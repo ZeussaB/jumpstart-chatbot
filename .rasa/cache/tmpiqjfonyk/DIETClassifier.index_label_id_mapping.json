@@ -1,0 +1,13 @@
+{
+  "0": "affirm",
+  "1": "ask_contact_info",
+  "2": "ask_return_policy",
+  "3": "ask_shipping",
+  "4": "ask_store_hours",
+  "5": "bot_challenge",
+  "6": "deny",
+  "7": "goodbye",
+  "8": "greet",
+  "9": "mood_great",
+  "10": "mood_unhappy"
+}
