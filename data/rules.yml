@@ -31,3 +31,23 @@ rules:
   steps:
     - intent: ask_contact_info
     - action: utter_ask_contact_info
+
+- rule: Order status help
+  steps:
+    - intent: ask_order_status
+    - action: utter_ask_order_status
+
+- rule: Accepted payment methods
+  steps:
+    - intent: ask_payment_methods
+    - action: utter_ask_payment_methods
+
+- rule: Product availability
+  steps:
+    - intent: ask_product_availability
+    - action: utter_ask_product_availability
+
+- rule: Give discounts info
+  steps:
+    - intent: ask_discount
+    - action: utter_ask_discount

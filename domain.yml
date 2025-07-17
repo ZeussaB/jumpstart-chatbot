@@ -10,6 +10,13 @@ intents:
   - bot_challenge
   - ask_shipping
   - ask_return_policy
+  - ask_store_hours
+  - ask_contact_info
+  - ask_order_status
+  - ask_payment_methods
+  - ask_product_availability
+  - ask_discount
+
 
 responses:
   utter_greet:
@@ -42,6 +49,18 @@ responses:
 
   utter_ask_contact_info:
     - text: "You can contact customer support at askinfo@email.com"
+
+  utter_ask_order_status:
+    - text: "To check your order status, please log into your Jumpstart account and go to 'My Orders'."
+
+  utter_ask_payment_methods:
+    - text: "We accept major credit cards, PayPal, GCash, and cash on delivery."
+
+  utter_ask_product_availability:
+    - text: "Product availability depends on stock. You can check online or in your nearest store."
+
+  utter_ask_discount:
+    - text: "We run regular promotions. Check the homepage banner or subscribe to our newsletter for updates!"
 
 session_config:
   session_expiration_time: 60

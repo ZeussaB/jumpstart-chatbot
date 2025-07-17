@@ -117,3 +117,28 @@ nlu:
     - What is your contact information?
     - How do I reach you?
     - Can I get your email address?
+
+- intent: ask_order_status
+  examples: |
+    - where is my order?
+    - track my order
+    - what's the status of my order?
+    - has my package shipped yet?
+
+- intent: ask_payment_methods
+  examples: |
+    - what payment methods do you accept?
+    - can I pay with PayPal?
+    - do you accept credit cards?
+
+- intent: ask_product_availability
+  examples: |
+    - is this item in stock?
+    - do you have size medium?
+    - will this be restocked?
+
+- intent: ask_discount
+  examples: |
+    - do you have any discounts?
+    - any promotions now?
+    - coupon codes available?
