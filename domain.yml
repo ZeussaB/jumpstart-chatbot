@@ -37,6 +37,12 @@ responses:
   utter_ask_return_policy:
     - text: "You can return items within 30 days of purchase. Visit our returns page for full instructions."
 
+  utter_ask_store_hours:
+    - text: "Our store is open from 9 AM to 9 PM, Monday to Saturday, and 10 AM to 6 PM on Sundays." 
+
+  utter_ask_contact_info:
+    - text: "You can contact customer support at askinfo@email.com"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

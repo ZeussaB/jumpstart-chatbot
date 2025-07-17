@@ -73,24 +73,6 @@
   <footer>
     &copy; 2025 Jumpstart & Aceadora Tech
   </footer>
-<!-- Rasa Webchat Widget -->
-  <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
-  <script>
-    WebChat.default.init({
-        selector: ".chat-container",
-        initPayload: "/greet",
-        customData: {"language": "en"},
-        socketUrl: "http://localhost:5005",
-        socketPath: "/socket.io/",
-        title: "Jumpstart AI Assistant",
-        subtitle: "How can I help you today?",
-        inputTextFieldHint: "Ask your question...",
-        showCloseButton: true,
-        profileAvatar: "https://cdn-icons-png.flaticon.com/512/4712/4712109.png",
-        params: {
-            storage: "local"
-        }
-    });
-  </script>
+
 </body>
 </html>

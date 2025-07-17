@@ -21,3 +21,13 @@ rules:
   steps:
     - intent: ask_return_policy
     - action: utter_ask_return_policy
+
+- rule: Answer store hours question
+  steps:    
+    - intent: ask_store_hours
+    - action: utter_ask_store_hours
+
+- rule: Answer contact info question
+  steps:
+    - intent: ask_contact_info
+    - action: utter_ask_contact_info

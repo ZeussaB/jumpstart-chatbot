@@ -95,9 +95,25 @@ nlu:
     - where is my order?
     - how long does delivery take?
     - tell me about shipping
+    - when will my order arrive?
 
 - intent: ask_return_policy
   examples: |
     - can I return an item?
     - what's your return policy?
     - how do I return something?
+    - can I get a refund?
+
+- intent: ask_store_hours
+  examples: |
+    - What are your store hours?
+    - When do you open?
+    - Is the store open now?
+    - What time do you close?
+
+- intent: ask_contact_info
+  examples: |
+    - How can I contact customer support?
+    - What is your contact information?
+    - How do I reach you?
+    - Can I get your email address?
