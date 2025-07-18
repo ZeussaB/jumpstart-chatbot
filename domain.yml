@@ -16,6 +16,11 @@ intents:
   - ask_payment_methods
   - ask_product_availability
   - ask_discount
+  - ask_loyalty_program
+  - ask_store_location
+  - ask_account_help
+  - ask_product_care
+  - ask_size_guide
 
 
 responses:
@@ -61,6 +66,21 @@ responses:
 
   utter_ask_discount:
     - text: "We run regular promotions. Check the homepage banner or subscribe to our newsletter for updates!"
+  
+  utter_ask_loyalty_program:
+    - text: "Our loyalty program lets you earn points for every purchase. Points can be redeemed for discounts and exclusive rewards."
+
+  utter_ask_store_location:
+    - text: "You can use our store locator at jumpstart.ph/stores to find the nearest location based on your city or ZIP code."
+
+  utter_ask_account_help:
+    - text: "To reset your password, go to the login page and click on 'Forgot Password'. We will send a reset link to your email."
+
+  utter_ask_product_care:
+    - text: "Product care varies. Most items have a care tag. For example, cotton can be machine washed, while delicate fabrics may require hand washing."
+
+  utter_ask_size_guide:
+    - text: "You can find our size guide on each product page. Sizes follow standard PH sizing but may differ by brand."
 
 session_config:
   session_expiration_time: 60

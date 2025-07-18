@@ -130,15 +130,19 @@ nlu:
     - what payment methods do you accept?
     - can I pay with PayPal?
     - do you accept credit cards?
+    - can I use cash on delivery?
 
 - intent: ask_product_availability
   examples: |
     - is this item in stock?
     - do you have size medium?
     - will this be restocked?
+    - can I order this product?
 
 - intent: ask_discount
   examples: |
     - do you have any discounts?
     - any promotions now?
     - coupon codes available?
+    - are there any sales happening?
+

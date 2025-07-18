@@ -51,3 +51,28 @@ rules:
   steps:
     - intent: ask_discount
     - action: utter_ask_discount
+
+- rule: Loyalty program info
+  steps:
+    - intent: ask_loyalty_program
+    - action: utter_ask_loyalty_program
+
+- rule: Find store location
+  steps:
+    - intent: ask_store_location
+    - action: utter_ask_store_location
+
+- rule: Help with account
+  steps:
+    - intent: ask_account_help
+    - action: utter_ask_account_help
+
+- rule: Product care guide
+  steps:
+    - intent: ask_product_care
+    - action: utter_ask_product_care
+
+- rule: Size guide
+  steps:
+    - intent: ask_size_guide
+    - action: utter_ask_size_guide
